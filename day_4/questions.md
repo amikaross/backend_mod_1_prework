@@ -6,15 +6,19 @@ To store some code in order to run use it in a variety of contexts.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-   * ```def hello
+   * ```
+        def hello
           puts "Sam I am"
-        end```
+        end
+    ```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-   * ```def hello_someone(name)
+   * ```
+        def hello_someone(name)
           puts "#{name} I am"
-        end```
+        end
+    ```
 
 1. How would you call or execute the method that you created above?
 
@@ -22,4 +26,4 @@ To store some code in order to run use it in a variety of contexts.
 
 1. What questions do you have about methods in Ruby?
 
-   * If it's all about objects.. Seems like methods have to be called on something. Is there something in main that a method without a call-ee is being called on? Some sneaky thing? 
+   * If it's all about objects.. Seems like methods have to be called on something. Is there something in main that a method without a call-ee is being called on? Some sneaky thing?

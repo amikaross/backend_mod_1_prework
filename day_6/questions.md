@@ -14,7 +14,8 @@
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 
-   ```class Dog
+   ```
+      class Dog
         def initialize(name, breed)
           @name = name
           @breed = breed
@@ -36,4 +37,4 @@
 
 1. What questions do you still have about classes in Ruby?
 
-   * I just want to use them in practice so much more. 
+   * I just want to use them in practice so much more.

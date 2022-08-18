@@ -6,11 +6,13 @@
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
-   *  ``` pet_store = {
+   *  ```
+          pet_store = {
             "dog food" => 5,
             "cat food" => 6,
             "bird food" => 10
-            }```
+          }
+      ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
@@ -27,4 +29,4 @@
 
 1. What questions do you still have about hashes?
 
-  * What type of data structure are we actually building in memory every time we define a hash? 
+  * What type of data structure are we actually building in memory every time we define a hash?
