@@ -6,3 +6,18 @@
 * Create an empty string for the cipher.
 * Iterate through each character of the message using .each_char. If the .ord for the character is within the ascii values for a capital letter then alter the character according to the shift value (again using ascii values) and add it onto the cipher string.
 * After this iteration is complete, print the cipher string.
+
+
+##Checker Board
+* First, request the user input a size, and save this value in a variable called "size" (after chomping and converting to an integer).
+* iterate through a range from 1 to size, with the enumerator called something like "row". In the code block will be the following:
+
+   * If the row is even, iterate through a range from 1 to size with the enumerator called "x".
+
+      * If x is even, print "X", if not, print " ".
+
+   * Else (if the row is odd), iterate through a range from 1 to size with the enumerator called "x".
+
+      * If x is even, print " ", if not, print "X".
+
+* End this if/else and have one more line which prints a new line, then close the original iteration with end.
